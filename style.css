@@ -53,7 +53,8 @@ mark:hover {
 header {
   flex-direction: column;
   padding: 80px 15px;
-  background-image: url("https://source.unsplash.com/daily");
+  background: linear-gradient(rgba(0,0,0,.4) 0%, rgba(0,0,0,.4) 0%),
+    url("https://source.unsplash.com/daily");
   background-position: center;
   background-size: cover;
 }
